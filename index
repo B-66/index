@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《履語》Lǚ Yǔ </title>
+    <link rel="stylesheet" href="asset/slides.css">
+    <link rel="stylesheet" href="asset/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="front page.html">
+                <img src="img/shoes.png" style="width: 20%;"></i> 《履語》Lǚ Yǔ
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">關於我們 <i class="fa fa-info-circle"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product_choose.html">商品瀏覽 <i class="fa fa-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">購物車 <i class="fa fa-shopping cart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">註冊 / 登入 <i class="fa fa-sign-in"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mypage.html">會員資料</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <div class="slideshow-container">
+
+               <div class="mySlides fade">
+                    <a href="review5.html">
+                        <img src="img/product5.png" alt="圖片描述 4" style="width:70%">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="review6.html">
+                        <img src="img/product6.png" alt="圖片描述 4" style="width:70%">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="review7.html">
+                        <img src="img/product7.png" alt="圖片描述 4" style="width:70%">
+                    </a>
+                </div>
+
+
+                <div class="mySlides fade">
+                    <a href="review1.html">
+                        <img src="img/product1.png" alt="圖片描述 4" style="width:70%">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="review9.html">
+                        <img src="img/product9.png" alt="圖片描述 4" style="width:70%">
+                    </a>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+
+            <div style="text-align: center; padding-top: 10px;">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </section>
+
+
+        <script src="asset/slide.js"></script>
+        <script src="asset/slides.css"></script>
+
+        </section>
+
+        <section class="how-it-works bg-light">
+            <div class="container py-5">
+                <div class="section-header text-center mb-5">
+                    <h2>特色</h2>
+                </div>
+                <div class="row workflow-steps">
+                    <div class="col-md-4 workflow-step">
+                        <div class="step-number">1</div>
+                        <h3>多樣化鞋款分類</h3>
+                        <li>男鞋、女鞋、童鞋、運動鞋、皮鞋、機能鞋等</br></li>
+                        <li>顏色、功能（跑步、登山、防水）、風格（簡約、街頭、復古）細緻分類</br></li>
+                    </div>
+                    <div class="col-md-4 workflow-step">
+                        <div class="step-number">2</div>
+                        <h3>順暢購物體驗</h3>
+                        <li>購物流程簡潔</br></li>
+                        <li>支援 Apple Pay / Line Pay / 超商取貨付款</br></li>
+                        <li>商品庫存與配送時間透明可見</li>
+                    </div>
+                    <div class="col-md-4 workflow-step">
+                        <div class="step-number">3</div>
+                        <h3>跨裝置體驗一致</h3>
+                        <li>RWD響應式網頁設計（手機、平板、桌機都適用）</li>
+                    </div>
+                    <div class="col-md-4 workflow-step">
+                        <div class="step-number">4</div>
+                        <h3>真實用戶評論系統</h3>
+                        <li>有圖評價、穿搭心得、尺寸合腳度統計（如：偏小／剛好／偏大）</br></li>
+                        <li>評價標籤功能（如「跑步舒適」、「耐走一整天」、「鞋底軟Q」）</li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials bg-light">
+            <div class="container py-5">
+                <div class="section-header text-center mb-5">
+                    <h2>用戶評價</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>「尺寸剛好」</br></p>
+                                <p>「走路舒適不傷腳」</br></p>
+                                <p>「這個網站幫我減少選擇障礙，非常推薦！」</p>
+                                <div class="testimonial-author">
+                                    <div class="testimonial-avatar">👵</div>
+                                    <div class="author-info">
+                                        <h4>林小姐</h4>
+                                        <span>2025/05/01</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>「尺寸合腳」</p>
+                                <p>「運動跑步 No problem」</p>
+                                <p>「很高興在這個網站找到理想的鞋子！」</p>
+                                <div class="testimonial-author">
+                                    <div class="testimonial-avatar">👱</div>
+                                    <div class="author-info">
+                                        <h4>王先生</h4>
+                                        <span>2025/05/15</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>《履語》Lǚ Yǔ </h3>
+                    <p>說出你的鞋語</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>聯絡我們</h3>
+                    <p><i class="fas fa-envelope"></i> contact@luyu.com</p>
+                    <p><i class="fas fa-phone"></i> (02) 1234-5678</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>關注我們</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>&copy; 2025 履語 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
