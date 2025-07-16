@@ -1,73 +1,103 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>《履語》Lǚ Yǔ </title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="slides.css">
+    <link rel="stylesheet" href="asset/slides.css">
+    <link rel="stylesheet" href="asset/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/shoes.png" style="width: 20%;"></i> 《履語》Lǚ Yǔ
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">關於我們 <i class="fa fa-info-circle"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="search.html">商品瀏覽 <i class="fa fa-search"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">購物車 <i class="fa fa-shopping cart"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.html">註冊 / 登入 <i class="fa fa-sign-in"></i></a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="container">
+            <a class="navbar-brand" href="front page.html">
+                <img src="img/shoes.png" style="width: 20%;"></i> 《履語》Lǚ Yǔ
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">關於我們 <i class="fa fa-info-circle"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product_choose.html">商品瀏覽 <i class="fa fa-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">購物車 <i class="fa fa-shopping cart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">註冊 / 登入 <i class="fa fa-sign-in"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mypage.html">會員資料</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+
         </nav>
     </header>
 
     <main>
-        <section class=" ">
-            <div class="slideshow-container" href="shows.html">
-                <div class="mySlides fade">
-                    <img src="img/product4.png" alt="圖片描述 1" style="width:70%">
+        <section>
+
+            <div class="slideshow-container">
+
+               <div class="mySlides fade">
+                    <a href="review5.html">
+                        <img src="img/product5.png" alt="圖片描述 4" style="width:70%">
+                    </a>
                 </div>
-    
+
                 <div class="mySlides fade">
-                    <img src="img/product5.png" alt="圖片描述 2" style="width:70%">
+                    <a href="review6.html">
+                        <img src="img/product6.png" alt="圖片描述 4" style="width:70%">
+                    </a>
                 </div>
-    
+
                 <div class="mySlides fade">
-                    <img src="img/product6.png" alt="圖片描述 3" style="width:70%">
+                    <a href="review7.html">
+                        <img src="img/product7.png" alt="圖片描述 4" style="width:70%">
+                    </a>
                 </div>
-    
+
+
+                <div class="mySlides fade">
+                    <a href="review1.html">
+                        <img src="img/product1.png" alt="圖片描述 4" style="width:70%">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="review9.html">
+                        <img src="img/product9.png" alt="圖片描述 4" style="width:70%">
+                    </a>
+                </div>
+
                 <a class="prev" onclick="plusSlides(-1)">❮</a>
                 <a class="next" onclick="plusSlides(1)">❯</a>
             </div>
-    
+
             <div style="text-align: center; padding-top: 10px;">
                 <span class="dot" onclick="currentSlide(0)"></span>
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </section>
-    
-        <script src="slide.js"></script>
-        <script src="main.js"></script>
-               
+
+
+        <script src="asset/slide.js"></script>
+        <script src="asset/slides.css"></script>
+
         </section>
 
         <section class="how-it-works bg-light">
@@ -188,4 +218,5 @@
         </div>
     </footer>
 </body>
+
 </html>
