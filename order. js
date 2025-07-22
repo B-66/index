@@ -1,0 +1,7 @@
+{
+  _id: ObjectId,
+  buyerId: ObjectId,
+  productId: ObjectId,
+  status: { type: String, enum: ['pending', 'completed'] },
+  createdAt: Date
+}
