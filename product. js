@@ -1,0 +1,12 @@
+{
+  _id: ObjectId,
+  ownerId: ObjectId, // reference to User
+  name: String,
+  brand: String,
+  size: String,
+  price: Number,
+  description: String,
+  imageUrl: String,
+  status: { type: String, enum: ['available', 'sold'] },
+  createdAt: Date
+}
