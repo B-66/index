@@ -13,7 +13,7 @@ API 測試	Postman / Insomnia	API 測試與驗證工具
 
 Node.js v18+
 
-MongoDB 6.x（本地或 Atlas）
+MongoDB 6.x（本地或 Atlas)
 
 Git
 
