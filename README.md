@@ -21,7 +21,7 @@ VSCode（建議）
 
 專案結構
 bash
-複製程式碼
+複製程式
 shoe-platform/
 ├── client/    # 前端
 ├── server/    # 後端
