@@ -1,0 +1,169 @@
+/* 基礎樣式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+    --primary-color: #f8b195;
+    --primary-dark: #f67280;
+    --secondary-color: #c9873d;
+    --light-green: #c8e6c9;
+    --light-yellow: #fff9c4;
+    --light-peach: #ffe0b2;
+    --light-blue: #bbdefb;
+    --dark-text: #333;
+    --light-text: #777;
+    --white: #fff;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+
+/* 頁首 */
+
+
+.head {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+
+/* 搜尋列 */
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 4px 12px;
+  background-color: #fff;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  margin-left: 8px;
+  background: transparent;
+  font-size: 14px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+/* 導覽列 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white; 
+  margin: 0;
+  padding: 20px;
+}
+
+*
+header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-dark);
+}
+
+.navbar-brand i {
+    margin-right: 5px;
+}
+
+.nav-link {
+    color: var(--dark-text);
+    margin: 0 10px;
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    color: var(--primary-dark);
+}
+
+
+/* 主內容區 */
+.page-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px;
+}
+
+/* 篩選按鈕 */
+#filter-toggle {
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #b7bab7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#filter-toggle:hover {
+  background-color: #b7bab7;
+}
+
+/* 篩選器 */
+.filters {
+  background-color: #f2f2f2;
+  padding: 16px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* 商品區 */
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  gap: 10px;
+  width: 1220px;
+}
+
+.card {
+  border: 1px solid #708090;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3, .card p {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.card a {
+  color: #B79C82;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #8B6B4F;
+  text-decoration: underline;
+}
