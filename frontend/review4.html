@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>《履語》Lǚ Yǔ </title>
+  <link rel="stylesheet" href="asset/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="asset/evaluate.css">
+</head>
+
+<body data-product-id="shoes4">
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="front page.html">
+          <img src="img/shoes.png" style="width: 20%;"></i> 《履語》Lǚ Yǔ
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">關於我們 <i class="fa fa-info-circle"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product_choose.html">商品瀏覽 <i class="fa fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">購物車 <i class="fa fa-shopping cart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">註冊 / 登入 <i class="fa fa-sign-in"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mypage.html">會員資料</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="view">
+    <section class="image-container">
+      <button id="prevBtn" class="arrow-btn">&#8592;</button>
+      <img id="productImage" src="img/shoes4-1.png" />
+      <button id="nextBtn" class="arrow-btn">&#8594;</button>
+    </section>
+    <article>
+      <h2>個性中跟軍靴</h2>
+      <h3>$2,190</h3>
+      <h4 id="averageRating">平均評分：尚無評價</h4>
+      <hr>
+      <pre>
+高筒設計穩定支撐腳踝，搭配柔軟鞋墊與粗跟設計，風格鮮明且好走不卡腳。
+鞋面採用高耐磨合成皮革，具備抗皺與挺拔效果，長時間穿著不變形。
+拉鍊設計方便穿脫，無論是街頭穿搭或戶外活動都自在駕馭。
+            </pre>
+      </hr>
+      <section class="purchase-options">
+        <h3>選擇尺寸與數量</h3>
+        <div>
+          <label for="sizeInput">尺寸：</label>
+          <input type="number" id="sizeInput" name="size" min="24" max="31" value="24" step="1" style="width: 60px;">
+        </div>
+        <div>
+          <label for="quantity">數量：</label>
+          <input type="number" id="quantity" min="1" max="10" value="1">
+        </div>
+        <button id="addToCartBtn">加入購物車</button>
+      </section>
+    </article>
+
+  </main>
+
+  <section class="size">
+    <img src="img/nsize.png" class="size">
+  </section>
+
+  <div class="ootd-container">
+    <div class="background" id="background">
+      <img src="img/shoes4-4.png" class="shoes" />
+      <img src="img/g1.png" id="outfitImage" class="outfit" />
+    </div>
+    <div class="controls">
+      <button id="prevOutfit">←</button>
+      <button id="nextOutfit">→</button>
+    </div>
+    <div class="controls">
+      <button onclick="changeBackground(0)">校園</button>
+      <button onclick="changeBackground(1)">海邊</button>
+      <button onclick="changeBackground(2)">商場</button>
+      <button onclick="changeBackground(3)">辦公大樓</button>
+      <button onclick="changeBackground(4)">公園</button>
+    </div>
+  </div>
+
+  <section class="eval">
+    <h3>🌟 顧客評價 🌟</h3>
+    <hr />
+    <div class="comment-wrapper">
+
+      <div class="comment-form">
+        <form id="reviewForm">
+          <div class="star">
+            <div class="star-rating">
+              <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+              <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+              <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+              <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+              <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+            </div>
+          </div>
+          <textarea id="comment" placeholder="請輸入您的評論..." required></textarea>
+          <button type="submit">送出評論</button>
+        </form>
+      </div>
+
+      <div class="review-display" id="reviewsContainer">
+
+      </div>
+
+    </div>
+  </section>
+  <script src="asset/ootd.js"></script>
+  <script src="asset/evaluate.js"></script>
+</body>
+
+</html>
